@@ -1,0 +1,35 @@
+body, html {
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#wrapper{
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+}
+
+#header{
+    background-color: #1f2937;
+}
+
+#navbar{
+
+}
+
+#cards-div{
+
+}
+
+#quotebox-div{
+    background-color: #e5e7eb;
+}
+
+#call-to-action-div{
+
+}
+
+#footer-div{
+    background-color: #1f2937;
+}
