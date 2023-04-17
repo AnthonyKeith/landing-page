@@ -15,11 +15,37 @@ body, html {
 }
 
 #navbar{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#navbar ul li #logo{
+    margin-right: auto;
+    color: white;
+}
+
+#navbar ul{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+
+#navbar ul li a{
+    text-decoration: none;
 
 }
 
-#cards-div{
+#hero-div{
+    display: flex;
+    justify-content: center;
+}
 
+#cards-div{
+    display: flex;
+}
+
+.card{
+    flex: 1;
 }
 
 #quotebox-div{
